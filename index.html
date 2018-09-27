@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Massagem</title>
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<style type="text/css" rel="stylesheet">
+		.hidden {
+			visibility: hidden;
+			overflow: hidden;
+			height: 1px;
+		}
+		</style>
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+	</head>
+	<body>
+		<nav class="white" role="navigation">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="#" class="brand-logo">
+				</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Massagem </a></li>
+					<li><a href="#">Preço </a></li>
+					<li><a href="#">Agendar </a></li>
+				</ul>
+				<ul id="nav-mobile" class="sidenav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Massagem </a></li>
+					<li><a href="#">Preço </a></li>
+					<li><a href="#">Agendar </a></li>
+				</ul>
+				<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+		<div id="index-banner" class="parallax-container">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<br><br>
+					<h1 class="header center white-text text-lighten-2 hidden"> S</h1>
+					<h1 class="header center white-text text-lighten-2 hidden"> S</h1>
+					<div class="row center">
+						<h4 class="header center text-lighten-2 col s12 light" style="letter-spacing: 3px;line-height: 1.6;">A MASSAGEM <br><b>MAIS GOSTOSA</b><br> DE PORTO ALEGRE </h4>
+					</div>
+					<h1 class="header center white-text text-lighten-2 hidden"> S</h1>
+					<h1 class="header center white-text text-lighten-2 hidden"> S</h1>
+					<div class="row center">
+					</div>
+					<!--
+						<div class="row center">
+						  <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+						</div>
+						-->
+					<br><br>
+				</div>
+			</div>
+			<div class="parallax" height="500px"><img src="img/p0jpg.jpg" alt="Unsplashed background img 1"></div>
+		</div>
+		<div class="container">
+			<div class="section">
+				<!--   Icon Section   -->
+				<div class="row">
+					<div class="col s12 m12">
+						<h1 class="header center  text-lighten-2">Massagem</h1>
+						<div class="row center">
+							<h5 class="header col s12 light"id="1">
+							 Massagem é uma ótima maneira de escapar do estresse diário, faz bem pra saúde, promove relaxamento intenso, ajuda a relaxar, melhora a postura, melhora a circulação, reduz a pressão arterial, relaxa os músculos, melhora a flexibilidade, ajuda a respirar melhor, alivia dores de cabeça,  fortalece o sistema imunológico e libera endorfinas que melhoram o humor.
+							 <br><br><br>
+							 Venha experimentar uma massagem deliciosa com nossas profissionais especializadas
+							</h5>
+						</div>
+		
+      </div>
+				</div>
+			</div>
+		</div>
+		<div class="parallax-container valign-wrapper">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<div class="row center">
+						<h1 class="header col s12 light">
+						O preço</h5>
+						<h5 class="center-align light" style="letter-spacing: 3px;line-height: 1.6;">
+						<br><br>
+						<br><br>
+						Pacote com 5 fotos da massagista - 100 Reais
+						<br>
+						<br>
+						Massagem 1h - 200 Reais
+						<br>
+						<br>
+						Massagem 2h - 250 Reais
+						<br>
+						<br>
+						Massagem 3h - 300 Reais
+						<br>
+						<br>
+						Serviço VIP - 400 Reais<br>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="parallax"><img src="img/slow.gif" alt="Unsplashed background img 2"></div>
+		</div>
+		
+		<div class="container">
+			<div class="section">
+				<div class="row">
+					<div class="col s12 center">
+						<h4>Agendar</h4>
+						
+						<p class="left-align light">
+					<div class="row">
+						<div class="input-field col s6">
+							<input id="calend" type="text" class="datepicker">
+							<label for="calend" >Selecione a data</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="time" type="text" class="timepicker">
+							<label for="time" >Selecione a hora</label>
+						</div>
+						<a class='dropdown-trigger' href='#' data-target='dropdown1'>
+							<div class="input-field col s12">
+								<input id="elem" type="text">
+								<label for="elem">Selecione o serviço</label>
+							</div>
+						</a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content s12'">
+    <li><a href="#!">Pacote com 5 fotos da massagista - 100 Reais</a></li>
+    <li><a href="#!">Massagem 1h - 200 Reais</a></li>
+    <li><a href="#!">Massagem 2h - 250 Reais</a></li>
+    <li><a href="#!">Massagem 3h - 300 Reais</a></li>
+    <li><a href="#!">Serviço  VIP  -  400 Reais</a></li>
+  </ul>
+ 
+						<br><br>
+						<div class="input-field col s12">
+							<input id="inoutr" type="text" class="validate">
+							<label for="inoutr">Local</label>
+						</div>
+						<a href="#">
+							<div class="col s12 card-panel teal"
+							style="padding: 20px 10px 20px 10px;">
+								<span class="white-text">
+									Clique para verificar disponibilidade
+								</span>
+							</div>
+						</a>
+						<div class="input-field col s12">
+							<input id="inidade" type="text" class="validate">
+							<label for="inidade" >Nome completo do dono do cartão</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="ingrav" type="text" class="validate">
+							<label for="ingrav">Número do cartão</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="ingravqnt" type="text" class="validate">
+							<label for="ingravqnt">Data de Vencimento</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inabt" type="text" class="validate">
+							<label for="inabt">CVV</label>
+						</div>
+					</div>
+					O pagamento será verificado em 24h e caso identificado uma confirmação será enviada.
+					<br>
+					Em caso de cancelamento devolvemos seu dinheiro caso o cancelamento seja feito com até 24h de antecedência.
+						</p>
+						<div id="googleMap2" style="width:500px;height:380px;"></div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<script>
+		 const Calendar = document.querySelector('.datepicker');
+		 M.Datepicker.init(Calendar,{});
+		 const Hora = document.querySelector('.timepicker');
+		 M.Timepicker.init(Hora,{});
+		 const Dropping = document.querySelector('.dropdown-trigger');
+		 M.Dropdown.init(Dropping,{});
+		</script>
+		
+		<footer class="page-footer cyan darken-4">
+			<div class="container">
+				<div class="row">
+					<div class="col l8 s12">
+						<h5 class="white-text">Sobre</h5>
+						<p class="grey-text text-lighten-4">
+							
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
