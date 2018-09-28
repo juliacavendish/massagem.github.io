@@ -24,6 +24,8 @@
 		<nav class="white" role="navigation">
 			<div class="nav-wrapper container">
 				<a id="logo-container" href="#" class="brand-logo">
+				<img src="img/logo.png" height="50" style="padding-top: 10px;"> <span style="top: 0 px;"></span>
+				
 				</a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="#">Home</a></li>
@@ -107,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="parallax"><img src="img/slow.gif" alt="Unsplashed background img 2"></div>
+			<div class="parallax"><img src="img/p2jpg.jpg" alt="Unsplashed background img 2"></div>
 		</div>
 		
 		<div class="container">
@@ -117,69 +119,47 @@
 						<h4>Agendar</h4>
 						
 						<p class="left-align light">
-					<div class="row">
-						<div class="input-field col s6">
-							<input id="calend" type="text" class="datepicker">
-							<label for="calend" >Selecione a data</label>
-						</div>
-						<div class="input-field col s6">
-							<input id="time" type="text" class="timepicker">
-							<label for="time" >Selecione a hora</label>
-						</div>
-						<a class='dropdown-trigger' href='#' data-target='dropdown1'>
-							<div class="input-field col s12">
-								<input id="elem" type="text">
-								<label for="elem">Selecione o serviço</label>
+						<div class="row">
+							<div class="input-field col s6">
+								<input id="calend" type="text" class="datepicker">
+								<label for="calend" >Selecione a data</label>
 							</div>
-						</a>
+							<div class="input-field col s6">
+								<input id="time" type="text" class="timepicker">
+								<label for="time" >Selecione a hora</label>
+							</div>
+							<a class='dropdown-trigger' href='#' data-target='dropdown1'>
+								<div class="input-field col s12">
+									<input id="elem" type="text">
+									<label for="elem">Selecione o serviço</label>
+								</div>
+							</a>
 
-  <!-- Dropdown Structure -->
-  <ul id='dropdown1' class='dropdown-content s12'">
-    <li><a href="#!">Pacote com 5 fotos da massagista - 100 Reais</a></li>
-    <li><a href="#!">Massagem 1h - 200 Reais</a></li>
-    <li><a href="#!">Massagem 2h - 250 Reais</a></li>
-    <li><a href="#!">Massagem 3h - 300 Reais</a></li>
-    <li><a href="#!">Serviço  VIP  -  400 Reais</a></li>
-  </ul>
- 
-						<br><br>
-						<div class="input-field col s12">
-							<input id="inoutr" type="text" class="validate">
-							<label for="inoutr">Local</label>
-						</div>
-						<a href="#">
-							<div class="col s12 card-panel teal"
-							style="padding: 20px 10px 20px 10px;">
-								<span class="white-text">
-									Clique para verificar disponibilidade
-								</span>
+							  <!-- Dropdown Structure -->
+							  <ul id='dropdown1' class='dropdown-content s12'">
+								<li><a href="#!">Pacote com 5 fotos da massagista - 100 Reais</a></li>
+								<li><a href="#!">Massagem 1h - 200 Reais</a></li>
+								<li><a href="#!">Massagem 2h - 250 Reais</a></li>
+								<li><a href="#!">Massagem 3h - 300 Reais</a></li>
+								<li><a href="#!">Serviço  VIP  -  400 Reais</a></li>
+							  </ul>
+	 
+							<br><br>
+							<div class="input-field col s12">
+								<input id="inoutr" type="text" class="validate">
+								<label for="inoutr">Local</label>
 							</div>
-						</a>
-						<div class="input-field col s12">
-							<input id="inidade" type="text" class="validate">
-							<label for="inidade" >Nome completo do dono do cartão</label>
+							<a href="#">
+								<div class="col s12 card-panel teal"
+								style="padding: 20px 10px 20px 10px;">
+									<span class="white-text">
+										Clique para verificar disponibilidade
+									</span>
+								</div>
+							</a>
 						</div>
-						<div class="input-field col s12">
-							<input id="ingrav" type="text" class="validate">
-							<label for="ingrav">Número do cartão</label>
-						</div>
-						<div class="input-field col s6">
-							<input id="ingravqnt" type="text" class="validate">
-							<label for="ingravqnt">Data de Vencimento</label>
-						</div>
-						<div class="input-field col s6">
-							<input id="inabt" type="text" class="validate">
-							<label for="inabt">CVV</label>
-						</div>
-					</div>
-					O pagamento será verificado em 24h e caso identificado uma confirmação será enviada.
-					<br>
-					Em caso de cancelamento devolvemos seu dinheiro caso o cancelamento seja feito com até 24h de antecedência.
-						</p>
-						<div id="googleMap2" style="width:500px;height:380px;"></div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 		
@@ -192,20 +172,61 @@
 		 M.Dropdown.init(Dropping,{});
 		</script>
 		
-		<footer class="page-footer cyan darken-4">
+		<div class="parallax-container valign-wrapper">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<div class="row center card-panel" style="background-color: rgba(255, 255, 255, 0.6);">
+						<h1 class="header col s12 light  black-text">
+						Pague agora</h5>
+						<h5 class="center-align light" style="letter-spacing: 3px;line-height: 1.6;">
+						<br><br>
+						<br><br>
+						<img src="img/cards.png" width="90%">
+						<div class="input-field col s12">
+							<input id="inidade" type="text" class="validate black-text">
+							<label for="inidade" class="black-text" >Nome completo do dono do cartão</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="ingrav" type="text" class="validate">
+							<label for="ingrav" class="black-text" >Número do cartão</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="ingravqnt" type="text" class="validate">
+							<label for="ingravqnt" class="black-text" >Data de Vencimento</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inabt" type="text" class="validate">
+							<label for="inabt" class="black-text" >CVV</label>
+						</div>
+						<a href="#">
+								<div class="col s12 card-panel blue-grey darken-3"
+								style="padding: 20px 10px 20px 10px;">
+									<span class="white-text">
+										Pagar
+									</span>
+								</div>
+							</a>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="parallax"><img src="img/fast.gif" alt="Unsplashed background img 2"></div>
+		</div>
+		
+		<footer class="page-footer blue-grey darken-4">
 			<div class="container">
 				<div class="row">
-					<div class="col l8 s12">
+					<div class="col s10">
 						<h5 class="white-text">Sobre</h5>
 						<p class="grey-text text-lighten-4">
-							
+							Julia Cavendish é uma profissional liberal que presta um serviço delicioso com muita discrição. Ainda não há local próprio por isso o atendimento é feito preferencialmente no motel Botafogo ou Pôr do Sol e o agendamento só será efetivado mediante pagamento adiantado.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class="footer-copyright">
+			<div class="footer-copyright" style="background-color: #202b30">
 				<div class="container">
-
+					
 				</div>
 			</div>
 		</footer>
